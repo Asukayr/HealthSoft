@@ -1,0 +1,77 @@
+<view class="container">
+  <!-- 服务搜索 -->
+  <view class="search-box">
+    <image class="search-icon" src="../../assets/icons/search.png"></image>
+    <input class="search-input" placeholder="搜索服务项目" placeholder-class="search-placeholder" />
+  </view>
+
+  <!-- 服务分类 -->
+  <view class="service-categories">
+    <view class="category-item">
+      <image src="../../assets/icons/appointment.png"></image>
+      <text>预约挂号</text>
+    </view>
+    <view class="category-item">
+      <image src="../../assets/icons/online-doctor.png"></image>
+      <text>在线问诊</text>
+    </view>
+    <view class="category-item">
+      <image src="../../assets/icons/prescription.png"></image>
+      <text>慢病续方</text>
+    </view>
+    <view class="category-item">
+      <image src="../../assets/icons/delivery.png"></image>
+      <text>送药上门</text>
+    </view>
+  </view>
+
+  <!-- 热门服务 -->
+  <view class="section-title">热门服务</view>
+  <view class="service-list">
+    <view class="service-item">
+      <image class="service-img" src="../../assets/images/service1.png"></image>
+      <view class="service-info">
+        <text class="service-name">高血压专科门诊</text>
+        <text class="service-desc">专业医师一对一诊疗</text>
+        <view class="service-bottom">
+          <text class="service-price">¥50起</text>
+          <view class="book-btn">立即预约</view>
+        </view>
+      </view>
+    </view>
+    <view class="service-item">
+      <image class="service-img" src="../../assets/images/service2.png"></image>
+      <view class="service-info">
+        <text class="service-name">糖尿病营养指导</text>
+        <text class="service-desc">个性化饮食方案定制</text>
+        <view class="service-bottom">
+          <text class="service-price">¥80起</text>
+          <view class="book-btn">立即预约</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 附近医疗机构 -->
+  <view class="section-title">附近医疗机构</view>
+  <view class="hospital-list">
+    <view class="hospital-item">
+      <image class="hospital-img" src="../../assets/images/hospital1.png"></image>
+      <view class="hospital-info">
+        <text class="hospital-name">仁爱医院</text>
+        <text class="hospital-type">三级甲等</text>
+        <text class="hospital-address">市中心医院路123号</text>
+        <text class="hospital-distance">1.2km</text>
+      </view>
+    </view>
+    <view class="hospital-item">
+      <image class="hospital-img" src="../../assets/images/hospital2.png"></image>
+      <view class="hospital-info">
+        <text class="hospital-name">同济医院</text>
+        <text class="hospital-type">三级甲等</text>
+        <text class="hospital-address">健康路456号</text>
+        <text class="hospital-distance">2.5km</text>
+      </view>
+    </view>
+  </view>
+</view>

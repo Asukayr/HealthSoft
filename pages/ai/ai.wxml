@@ -1,0 +1,25 @@
+<view class="chat-container">
+  <scroll-view scroll-y class="messages-list" scroll-into-view="{{messages.length > 0 ? 'msg-' + (messages.length - 1) : ''}}">
+    <block wx:for="{{messages}}" wx:key="index">
+      <view class="message {{item.type}}" id="msg-{{index}}">
+        <view class="avatar">
+          <image src="/assets/icons/{{item.type === 'ai' ? 'ai-avatar.png' : 'user-avatar.png'}}" mode="aspectFit"></image>
+        </view>
+        <view class="content">
+          <text>{{item.content}}</text>
+        </view>
+      </view>
+    </block>
+  </scroll-view>
+  
+  <view class="input-area">
+    <input class="message-input" 
+           type="text" 
+           value="{{inputValue}}" 
+           placeholder="请输入您的问题"
+           bindinput="handleInput"
+           confirm-type="send"
+           bindconfirm="sendMessage"/>
+    <button class="send-btn" bindtap="sendMessage" type="primary">发送</button>
+  </view>
+</view>

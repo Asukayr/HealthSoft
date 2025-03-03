@@ -1,0 +1,82 @@
+<view class="container">
+  <!-- 慢病服务banner -->
+  <view class="banner">
+    <image class="banner-img" src="../../assets/images/banner.png" mode="aspectFill"></image>
+    <view class="banner-text">
+      <text class="banner-title">慢病服务</text>
+      <text class="banner-subtitle">评估·干预·计划</text>
+    </view>
+  </view>
+
+  <!-- 风险评估报告 -->
+  <view class="report-card">
+    <view class="report-left">暂未评估</view>
+    <view class="report-right">
+      <text>查看风险评估报告 ></text>
+    </view>
+  </view>
+
+  <!-- 功能模块导航 -->
+  <view class="nav-grid">
+    <view class="nav-item">
+      <image src="../../assets/icons/consult.png"></image>
+      <text>健康咨询</text>
+    </view>
+    <view class="nav-item">
+      <image src="../../assets/icons/target.png"></image>
+      <text>关键指标</text>
+    </view>
+    <view class="nav-item">
+      <image src="../../assets/icons/plan.png"></image>
+      <text>健康计划</text>
+    </view>
+    <view class="nav-item">
+      <image src="../../assets/icons/assessment.png"></image>
+      <text>健康评估</text>
+    </view>
+  </view>
+
+  <!-- 数据记录区域 -->
+  <view class="data-section">
+    <view class="data-tabs">
+      <view class="tab active">血压</view>
+      <view class="tab">血糖</view>
+      <view class="tab">体重</view>
+      <view class="tab">心率</view>
+      <view class="tab">症状</view>
+    </view>
+
+    <view class="data-content">
+      <view class="data-header">
+        <view class="data-title">
+          <image src="../../assets/icons/temperature.png"></image>
+          <text>血压</text>
+        </view>
+        <text class="data-add">新增 ></text>
+      </view>
+      <view class="data-empty">
+        <image src="../../assets/images/empty.png"></image>
+        <text>暂无记录，请点击新增添加</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 底部链接 -->
+  <view class="bottom-links">
+    <view class="link-item">
+      <image src="../../assets/icons/manual.png"></image>
+      <text>查看小程序使用手册说明</text>
+      <text class="arrow">></text>
+    </view>
+    <view class="link-item">
+      <image src="../../assets/icons/analysis.png"></image>
+      <text>查看居家监测数据分析</text>
+      <text class="arrow">></text>
+    </view>
+    <view class="link-item">
+      <image src="../../assets/icons/guide.png"></image>
+      <text>查看个性化健康指导</text>
+      <text class="arrow">></text>
+    </view>
+  </view>
+</view>

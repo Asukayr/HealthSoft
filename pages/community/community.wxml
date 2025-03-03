@@ -1,0 +1,69 @@
+<view class="container">
+  <!-- 服务搜索 -->
+  <view class="search-box">
+    <image class="search-icon" src="../../assets/icons/search.png"></image>
+    <input class="search-input" placeholder="搜索服务项目" placeholder-class="search-placeholder" />
+  </view>
+
+  <!-- 社区分类 -->
+  <view class="service-categories">
+    <view class="category-item">
+      <image src="../../assets/icons/classroom.png"></image>
+      <text>公益课堂</text>
+    </view>
+    <view class="category-item">
+      <image src="../../assets/icons/community.png"></image>
+      <text>病友交流</text>
+    </view>
+  </view>
+
+  <!-- 公益课堂 -->
+  <view class="section-title">公益课堂</view>
+  <view class="service-list">
+    <view class="service-item">
+      <image class="service-img" src="../../assets/images/class1.png"></image>
+      <view class="service-info">
+        <text class="service-name">糖尿病饮食管理课程</text>
+        <text class="service-desc">专业营养师在线授课</text>
+        <view class="service-bottom">
+          <text class="service-price">免费</text>
+          <view class="book-btn">立即报名</view>
+        </view>
+      </view>
+    </view>
+    <view class="service-item">
+      <image class="service-img" src="../../assets/images/class2.png"></image>
+      <view class="service-info">
+        <text class="service-name">高血压健康讲座</text>
+        <text class="service-desc">专家分享防治经验</text>
+        <view class="service-bottom">
+          <text class="service-price">免费</text>
+          <view class="book-btn">立即报名</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 病友交流 -->
+  <view class="section-title">病友交流</view>
+  <view class="hospital-list">
+    <view class="hospital-item">
+      <image class="hospital-img" src="../../assets/images/group1.png"></image>
+      <view class="hospital-info">
+        <text class="hospital-name">糖尿病互助小组</text>
+        <text class="hospital-type">日常交流</text>
+        <text class="hospital-address">200位病友在线</text>
+        <text class="hospital-distance">进行中</text>
+      </view>
+    </view>
+    <view class="hospital-item">
+      <image class="hospital-img" src="../../assets/images/group2.png"></image>
+      <view class="hospital-info">
+        <text class="hospital-name">高血压康复群</text>
+        <text class="hospital-type">经验分享</text>
+        <text class="hospital-address">150位病友在线</text>
+        <text class="hospital-distance">进行中</text>
+      </view>
+    </view>
+  </view>
+</view>
